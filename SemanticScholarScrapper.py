@@ -27,7 +27,7 @@ class SemanticScholarScrapper(object):
     """
     # _web_driver = webdriver.Firefox()
 
-    def __init__(self, log_file, path, timeout=15, time_between_api_call=0.3, headless=True,
+    def __init__(self, log_file, path, timeout=60, time_between_api_call=0.3, headless=True,
                  site_url='https://www.semanticscholar.org/',
                  site_sign_in_url='https://www.semanticscholar.org/sign-in'):
         """
